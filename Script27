@@ -1,0 +1,2 @@
+getgenv().key = "PROJECTWD-ukioqCk2XHUfcgniio"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
