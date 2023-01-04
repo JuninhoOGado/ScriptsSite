@@ -1,0 +1,74 @@
+local Converted = {
+	["_Tutorial"] = Instance.new("ScreenGui");
+	["_main"] = Instance.new("Frame");
+	["_GetKey"] = Instance.new("TextButton");
+	["_Verify"] = Instance.new("TextButton");
+	["_TextBox"] = Instance.new("TextBox");
+	["_TextLabel"] = Instance.new("TextLabel");
+}
+
+-- Properties:
+
+Converted["_Tutorial"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_Tutorial"].Name = "Tutorial"
+Converted["_Tutorial"].Parent = game:GetService("CoreGui")
+
+Converted["_main"].BackgroundColor3 = Color3.fromRGB(56.0000042617321, 56.0000042617321, 56.0000042617321)
+Converted["_main"].BorderSizePixel = 0
+Converted["_main"].Position = UDim2.new(0.345011091, 0, 0.343866169, 0)
+Converted["_main"].Size = UDim2.new(0, 460, 0, 167)
+Converted["_main"].Name = "main"
+Converted["_main"].Parent = Converted["_Tutorial"]
+
+Converted["_GetKey"].Font = Enum.Font.SourceSans
+Converted["_GetKey"].Text = "Get key"
+Converted["_GetKey"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_GetKey"].TextSize = 14
+Converted["_GetKey"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GetKey"].Position = UDim2.new(0.0543478243, 0, 0.700598776, 0)
+Converted["_GetKey"].Size = UDim2.new(0, 170, 0, 30)
+Converted["_GetKey"].Name = "GetKey"
+Converted["_GetKey"].Parent = Converted["_main"]
+Converted["_GetKey"].MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Copied!", Text = "Link Successfully Copied!", Icon = "", Duration = 4})
+	wait(1)
+	setclipboard("https://workink.biz/2ON/snipersbetakey")
+end)
+	
+Converted["_Verify"].Font = Enum.Font.SourceSans
+Converted["_Verify"].Text = "Verify"
+Converted["_Verify"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Verify"].TextSize = 14
+Converted["_Verify"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Verify"].Position = UDim2.new(0.576086938, 0, 0.700598776, 0)
+Converted["_Verify"].Size = UDim2.new(0, 170, 0, 30)
+Converted["_Verify"].Name = "Verify"
+Converted["_Verify"].Parent = Converted["_main"]
+Converted["_Verify"].MouseButton1Down:Connect(function()
+	if Converted["_TextBox"].Text == "AJ8NW70RD6S5UYKAUJ" then
+		Converted["_main"].Visible = false
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dark-Scripts/Snipers-Beta/main/Script", true))()
+	end
+end)
+
+Converted["_TextBox"].CursorPosition = -1
+Converted["_TextBox"].Font = Enum.Font.SourceSans
+Converted["_TextBox"].Text = ""
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].Position = UDim2.new(0.0543478243, 0, 0.299401194, 0)
+Converted["_TextBox"].Size = UDim2.new(0, 410, 0, 50)
+Converted["_TextBox"].Parent = Converted["_main"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel"].Text = "Key System"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextSize = 37
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(56.0000042617321, 56.0000042617321, 56.0000042617321)
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(27.000000290572643, 42.000001296401024, 53.00000064074993)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.282608688, 0, 0.0359281451, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 200, 0, 37)
+Converted["_TextLabel"].Parent = Converted["_main"]
