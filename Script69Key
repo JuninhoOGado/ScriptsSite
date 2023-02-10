@@ -1,0 +1,2 @@
+getgenv().key = "ByeByeNeroxYouShallBeMissed";
+loadstring(game:HttpGet("https://versus-airlines.cf/scripts/loader.lua"))()
