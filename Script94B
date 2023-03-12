@@ -1,0 +1,7 @@
+local delay = 0 -- [sec] if your network so noob
+
+local url = "https://pastebin.com/raw/ZR6yzN0b"
+
+repeat wait() wait(delay) until game:IsLoaded()
+
+loadstring(game:HttpGet(url))()
