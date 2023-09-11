@@ -1,0 +1,8 @@
+getgenv().ScriptConfig = {
+	DistanceBeforeParry = 46 -- Distance in stud before the automatic triggers
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sussy-Tech/Scripts/main/BladeBall.lua"))()
+
+-- Infinity Hub [ Auto Parry / Inf. Abilities]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfinityMercury/Scripts/main/BladeBall/loader.lua"))()
