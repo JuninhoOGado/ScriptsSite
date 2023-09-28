@@ -1,0 +1,5 @@
+-- Tora IsMe
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0StrongMuscleX"))()
+
+-- MamakSHub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MamakSHub/Mamakshub/main/S4rongMuscle"))()
