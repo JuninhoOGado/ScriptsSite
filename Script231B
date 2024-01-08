@@ -1,0 +1,6 @@
+local args = {
+    [1] = "summon",
+    [2] = -999 --change number here
+}
+
+game:GetService("ReplicatedStorage").RGX.RIO:FireServer(unpack(args))
