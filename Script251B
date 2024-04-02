@@ -1,0 +1,2 @@
+_G.Language = "English"
+loadstring(game:HttpGetAsync'https://shz.al/~RinXScript')()
