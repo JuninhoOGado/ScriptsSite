@@ -1,0 +1,34 @@
+-- auto collect farm clicks
+while true do
+    local clickSpawns = game:GetService("Workspace").ClickSpawns:GetChildren()
+
+    for _, part in ipairs(clickSpawns) do
+        if part:IsA("BasePart") then
+            for _, child in ipairs(part:GetChildren()) do
+                if child.Name == "ClickObject" then
+                    print(part.Name)
+                    local args = {
+                        [1] = part.Name
+                    }
+                    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CollectClicks"):FireServer(unpack(args))
+                    break
+                end
+            end
+        end
+    end
+    wait(0.5)
+end
+
+-- auto clicker
+while true do
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Click"):FireServer()
+    wait(0)
+end
+
+-- auto obby and teleport to 1.4x farm
+while true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(124.6813735961914, 450.3433837890625, -179.51710510253906)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(127.99397277832031, 393.01904296875, -272.6174011230469)
+wait(30)
+end
