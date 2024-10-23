@@ -1,0 +1,2 @@
+getgenv().LimitedExecutor = true 
+loadstring(game:HttpGet("https://lycan-x-hub.vercel.app/script/5233782396"))()
