@@ -3,53 +3,142 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Homepage -->
+  <!-- Páginas principais -->
   <url>
     <loc>https://juninhoscripts.site/</loc>
     <priority>1.0</priority>
   </url>
-
-  <!-- Categorias -->
   <url>
-    <loc>https://juninhoscripts.site/category/sorteios</loc>
-    <priority>0.8</priority>
+    <loc>https://juninhoscripts.site/#store</loc>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://juninhoscripts.site/category/blox-fruits</loc>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Pacotes / Produtos -->
-  <url><loc>https://juninhoscripts.site/package/fruta-kitsune-50-centavos</loc></url>
-  <url><loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm</loc></url>
-  <url><loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm-+-cdk</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-ttk</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-2550-+-ghm-+-sg-+-cdk-+-ttk</loc></url>
-  <url><loc>https://juninhoscripts.site/package/k0LLkrtoxX</loc></url>
-  <url><loc>https://juninhoscripts.site/package/max-lv-+-sanguine-art</loc></url>
-  <url><loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-dough-v2</loc></url>
-  <url><loc>https://juninhoscripts.site/package/2-fruta-mitica-random</loc></url>
-  <url><loc>https://juninhoscripts.site/package/1-fruta-mitica-random</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-kitsune-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-yeti-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-gas-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-dough-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-t-rex-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-mamute-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-leopard-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/level-max-+-ghm-+-portal-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-buddha-no-inventario</loc></url>
-  <url><loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-raca-v4-barata</loc></url>
-  <url><loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-cyborg</loc></url>
-  <url><loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-anjel</loc></url>
-  <url><loc>https://juninhoscripts.site/package/max-lv-2600-+-ghm-+-cdk-+-sg-+-v4-full-mink</loc></url>
-  <url><loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-tubarao</loc></url>
-  <url><loc>https://juninhoscripts.site/package/random-level-1000+</loc></url>
-
-  <!-- Página de termos -->
+  <url>
+    <loc>https://juninhoscripts.site/login</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/checkout</loc>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://juninhoscripts.site/terms</loc>
     <priority>0.5</priority>
+  </url>
+
+  <!-- Produtos -->
+  <url>
+    <loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/max-lvl-+-ghm-+-sg</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm-+-cdk</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/k0LLkrtoxX</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/max-lv-+-sanguine-art</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-ttk</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-dough-v2</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/2-fruta-mitica-random</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/1-fruta-mitica-random</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-kitsune-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-leopard-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-gas-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-yeti-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-dough-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-t-rex-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-mamute-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-portal-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-buddha-no-inventario</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-raca-v4-barata</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-cyborg</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-anjel</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/max-lv-2600-+-ghm-+-cdk-+-sg-+-v4-full-mink</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-tubarao</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Links externos -->
+  <url>
+    <loc>https://centralcart.com.br/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.instagram.com/juninhoscripts/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://discord.gg/6QZRXE2Ng8</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://wa.link/s1zx52</loc>
+    <priority>0.4</priority>
   </url>
 
 </urlset>
