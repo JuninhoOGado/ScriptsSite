@@ -29,7 +29,7 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Produtos -->
+  <!-- Produtos / Packages -->
   <url>
     <loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm</loc>
     <priority>0.8</priority>
@@ -122,23 +122,9 @@
     <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-tubarao</loc>
     <priority>0.8</priority>
   </url>
-
-  <!-- Links externos -->
   <url>
-    <loc>https://centralcart.com.br/</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://www.instagram.com/juninhoscripts/</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://discord.gg/6QZRXE2Ng8</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://wa.link/s1zx52</loc>
-    <priority>0.4</priority>
+    <loc>https://juninhoscripts.site/package/random-level-1000+</loc>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
