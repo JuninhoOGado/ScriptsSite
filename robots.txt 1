@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# --- Áreas Públicas (Importantes para SEO) ---
+# O Google DEVE ler estas pastas para indexar seus produtos e categorias 
+Allow: /package/
+Allow: /category/
+Allow: /blog/
+Allow: /faq/
+Allow: /about/
+
+# --- Áreas Bloqueadas (Segurança e não-indexação) ---
+# Impede que o Google mostre a página de login nos resultados 
+Disallow: /login
+
+# Impede indexação do carrinho/pagamento (evita problemas de segurança e links quebrados para usuários) 
+Disallow: /checkout
+
+# Bloqueios padrão de segurança (Prevenção)
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /my-account/
+
+# --- Mapa do Site ---
+# Indica onde está a lista de todos os seus links
+Sitemap: https://juninhoscripts.site/sitemap.xml
