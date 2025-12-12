@@ -1,130 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Páginas principais -->
-  <url>
-    <loc>https://juninhoscripts.site/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/#store</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/category/blox-fruits</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/login</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/checkout</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/terms</loc>
-    <priority>0.5</priority>
-  </url>
-
-  <!-- Produtos / Packages -->
-  <url>
-    <loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/max-lvl-+-ghm-+-sg</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm-+-cdk</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/k0LLkrtoxX</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/max-lv-+-sanguine-art</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-ttk</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-dough-v2</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/2-fruta-mitica-random</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/1-fruta-mitica-random</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-kitsune-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-leopard-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-gas-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-yeti-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-dough-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-t-rex-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-mamute-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/level-max-+-ghm-+-portal-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-buddha-no-inventario</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-raca-v4-barata</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-cyborg</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-anjel</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/max-lv-2600-+-ghm-+-cdk-+-sg-+-v4-full-mink</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-tubarao</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://juninhoscripts.site/package/random-level-1000+</loc>
-    <priority>0.8</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+Created with IncludeHelp XML Sitemap Generator
+https://www.includehelp.com/tools/xml-sitemap-generator.aspx
+ -->
+<url>
+	<loc>https://juninhoscripts.site/</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/faq</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/login</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/checkout</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/category/blox-fruits</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/category/sorteios</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/max-lv-2650-+-ghm-+-cdk</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/k0LLkrtoxX</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/max-lv-+-sanguine-art</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/2-fruta-mitica-random</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/1-fruta-mitica-random</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-kitsune-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-gas-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-yeti-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-leopard-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-dough-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-t-rex-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-mamute-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/level-max-+-ghm-+-portal-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-buddha-no-inventario</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-raca-v4-barata</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-cyborg</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-anjel</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/max-lv-2600-+-ghm-+-cdk-+-sg-+-v4-full-mink</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-tubarao</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/lvl-max-+-ghm-+-cdk-+-v4-full-mink</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/random-level-1000+</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/package/sorteio-draco-v4-full</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/about</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/blog</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/terms</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://juninhoscripts.site/privacy</loc>
+	<lastmod>2025-12-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
 </urlset>
